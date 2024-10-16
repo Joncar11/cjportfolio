@@ -118,4 +118,16 @@ h2 {
         flex: 1 1 100%; /* One card per row on mobile */
     }
 }
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+    }
+}
+
 

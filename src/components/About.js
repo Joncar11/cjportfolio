@@ -2,7 +2,7 @@ const About = () => {
     return (
         <section id="about" style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
             <h2 style={{ textAlign: 'center' }}>About Me</h2>
-            <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
+            <div className="about-container" style={{ padding: '20px' }}>
                 <div style={{ flex: '1', padding: '10px' }}>
                     <p>Hello! I'm Carl Jones, a full stack web developer from Tempe, AZ.</p>
                     <p>With a decade of web development experience, delivering well-designed websites and apps, on-time and on budget.</p>
